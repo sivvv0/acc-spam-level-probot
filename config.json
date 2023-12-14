@@ -1,4 +1,4 @@
 {
     "Token": "tokenhere",
-    "Channel": "" // channel id for spam
+    "Channel": "channel id for spam" 
 }
