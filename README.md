@@ -13,7 +13,6 @@ Please edit the `./config.json` file first.
 ```json
  {
     "Token": "tokenhere",
-    "Guild": "", // guild that where spam be in
     "Channel": "" // channel id for spam
 }
 ```
