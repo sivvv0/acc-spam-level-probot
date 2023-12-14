@@ -21,4 +21,4 @@ client.on('ready', () => {
 }) //s1vann//  40000- if you get banned im not responsible
 
 
-client.login(config.Token);
+client.login(config.Token || process.env.token);
