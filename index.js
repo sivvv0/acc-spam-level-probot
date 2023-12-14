@@ -8,7 +8,7 @@ const config = require(`${process.cwd()}/config.json`);
 client.on('ready', async () => {
     console.log(`Logged in as ${client.user.tag}!`);
 });
-var facts = ['ProBot is a highly configurable, multipurpose bot that offers features like image greeting', 'detailed logs, social commands, moderation, self-assignable roles', 'social media notifications and protection for your server.', 'Welcome to the ProBot Docs!', 'Dashboard Your One-Stop-Shop for Server Management', 'Frequently Asked Questions', 'Custom Welcome and Goodbye Messages for Engaging Discord Server Management', 'MODULES Self-Assignable Roles', 'Easily create embeds for your server!', 'Level System', '1', '1525', '2', 'hwav12', '3', 'wkab1627',
+var sivv = ['ProBot is a highly configurable, multipurpose bot that offers features like image greeting', 'detailed logs, social commands, moderation, self-assignable roles', 'social media notifications and protection for your server.', 'Welcome to the ProBot Docs!', 'Dashboard Your One-Stop-Shop for Server Management', 'Frequently Asked Questions', 'Custom Welcome and Goodbye Messages for Engaging Discord Server Management', 'MODULES Self-Assignable Roles', 'Easily create embeds for your server!', 'Level System', '1', '1525', '2', 'hwav12', '3', 'wkab1627',
  'r4',
  'wis18263',
  'd5',
@@ -34,8 +34,8 @@ var facts = ['ProBot is a highly configurable, multipurpose bot that offers feat
 client.on('ready', () => {
   let channel = client.channels.cache.get('1168530983243481159')
   setInterval(function() {
-    var fact = Math.floor(Math.random() * facts.length)
-    channel.send(facts[fact])
+    var s1vann = Math.floor(Math.random() * sivv.length)
+    channel.send(sivv[s1vann])
   }, 47000)
 })
 
