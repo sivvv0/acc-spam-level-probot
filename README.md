@@ -1,6 +1,6 @@
 - [x] if you have any problem [open poll](https://github.com/sivvv0/acc-spam-level-probot/issues/new) 
 - [x] if you have any request [open ticket](https://github.com/sivvv0/acc-spam-level-probot/issues/new)
-- [x]  [**replit**](https://replit.com/@Sivovx/acc-spam-level-probot)
+- [x]  [**Replit banned selfbots**]
 
 Dependencies maybe outdated. You should update them yourself!
 
