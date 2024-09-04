@@ -14,7 +14,7 @@ Please edit the `./config.json` file first.
 ```json
  {
     "Token": "tokenhere",
-    "Channel": "" 
+    "Channel": "channel-id" 
 }
 ```
 
