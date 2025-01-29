@@ -31,10 +31,8 @@ client.on('messageCreate', async (message) => {
   const args = message.content.slice(prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
 
-  // Restrict commands to one specific user
-  if (message.author.id !== message.author.id) {
-    return message.reply('You are not authorized to use this command.');
-  }
+  // Ignore commands from users other than the allowed user = allowed user is you only you
+  if (message.author.id !== message.author.id) return;
 
   if (command === 'avatar') {
     const user = message.mentions.users.first() || message.author;
@@ -66,8 +64,6 @@ client.on('messageCreate', async (message) => {
     return msg.edit(`Pong! Latency: ${latency}ms | API Latency: ${apiLatency}ms`);
   }
 });
-
-client.login('YOUR_BOT_TOKEN');
 
 
 
