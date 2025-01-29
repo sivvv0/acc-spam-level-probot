@@ -9,7 +9,9 @@ const config = require(`${process.cwd()}/config.json`);
 client.on('ready', async () => {
     console.log(`Logged in as ${client.user.tag}!`);
 });
-
+client.on('error', (error) => {
+  console.error('An error occurred:', error);
+});
 
 client.on('ready', () => {
   let channel = client.channels.cache.get(config.Channel)
