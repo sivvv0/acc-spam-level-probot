@@ -32,7 +32,7 @@ client.on('messageCreate', async (message) => {
   const command = args.shift().toLowerCase();
 
   // Ignore commands from users other than the allowed user = allowed user is you only you
-  if (message.author.id !== message.author.id) return;
+  if (message.author.id !== client.user.id) return;
 
   if (command === 'avatar') {
     const user = message.mentions.users.first() || message.author;
