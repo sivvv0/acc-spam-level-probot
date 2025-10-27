@@ -11,6 +11,14 @@ Please edit the `./config.json` file first.
 
 ### Config Information
 
+
+> [!WARNING]
+> **I don't take any responsibility for blocked Discord accounts that used this module.**
+
+> [!CAUTION]
+> **Using this on a user account is prohibited by the [Discord TOS](https://discord.com/terms) and can lead to the account block.**
+
+
 ```json
  {
     "Token": "tokenhere",
