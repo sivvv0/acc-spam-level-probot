@@ -9,6 +9,7 @@ const config = require(`${process.cwd()}/config.json`);
 client.on('ready', async () => {
     console.log(`Logged in as ${client.user.tag}!`);
     const  acc2  = require(`${process.cwd()}/acc/account2.js`);
+    const  acc3  = require(`${process.cwd()}/acc/account3.js`);
 });
 client.on('error', (error) => {
   console.error('An error occurred:', error);
