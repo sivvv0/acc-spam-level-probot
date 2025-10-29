@@ -68,5 +68,6 @@ client.on('messageCreate', async (message) => {
 
 
 
-
-client.login(config.Token || process.env.token);
+client.login(config.Token || process.env.token).catch(error => {
+    console.error('❌ Failed to login: acc 1');
+});
