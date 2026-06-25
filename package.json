@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "sivvv0",
+  "author": "s1vann",
   "license": "MIT",
   "dependencies": {
     "discord.js-selfbot-v13": "3.5.1"
